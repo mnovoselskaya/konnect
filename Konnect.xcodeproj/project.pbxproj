@@ -97,11 +97,10 @@
 		7266B91822433357004DCE23 /* Konnect */ = {
 			isa = PBXGroup;
 			children = (
+				7266B949224333A1004DCE23 /* View Controllers */,
+				7266B94822433391004DCE23 /* Storyboards */,
 				7266B91922433357004DCE23 /* AppDelegate.swift */,
-				7266B91B22433357004DCE23 /* ViewController.swift */,
-				7266B91D22433357004DCE23 /* Main.storyboard */,
 				7266B9202243335A004DCE23 /* Assets.xcassets */,
-				7266B9222243335A004DCE23 /* LaunchScreen.storyboard */,
 				7266B9252243335A004DCE23 /* Info.plist */,
 			);
 			path = Konnect;
@@ -123,6 +122,23 @@
 				7266B93B2243335A004DCE23 /* Info.plist */,
 			);
 			path = KonnectUITests;
+			sourceTree = "<group>";
+		};
+		7266B94822433391004DCE23 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7266B91D22433357004DCE23 /* Main.storyboard */,
+				7266B9222243335A004DCE23 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7266B949224333A1004DCE23 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7266B91B22433357004DCE23 /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
